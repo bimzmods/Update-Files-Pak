@@ -1,4 +1,4 @@
-// script-aincard (deobfuscated, log & anti-tamper dibuang)
+// script-aincard (deobfuscated, brand: BimzModz)
 (function () {
 
     'use strict';
@@ -28,7 +28,7 @@
         D && D.remove();
         const F = document.getElementById('zxi-music-btn');
         F && F.remove();
-        let G = 'ZXI', H = 'https://t.me/zxiowner', I = '';
+        let G = 'BimzModz', H = 'https://t.me/zxiowner', I = '';
         try {
             const W = await fetch(((j.n + '&t=') + Date.now())), X = (await W.text()).split(/\r?\n/).map(Y => Y.trim()).filter(Y => '' !== Y);
             if (X[g]) {
